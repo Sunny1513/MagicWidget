@@ -1,0 +1,309 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- animation动画 样式 -->
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+    </style>
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="CustomTitleText">
+        <item name="android:textSize">@dimen/custom_text_size_mid</item>
+        <item name="android:textColor">@color/card_title_textcolor</item>
+    </style>
+
+    <style name="PayText">
+        <item name="android:textSize">@dimen/custom_text_size_mini</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="PayText.WeChat" parent="@style/PayText">
+        <item name="android:textColor">@color/custom_paycard_wechat_color</item>
+    </style>
+
+    <style name="PayText.Alipay" parent="@style/PayText">
+        <item name="android:textColor">@color/custom_paycard_alipay_color</item>
+    </style>
+
+    <style name="PayText.Gray" parent="@style/PayText">
+        <item name="android:textColor">#4d000000</item>
+    </style>
+
+    <!--
+        <item name="android:windowTranslucentStatus">false</item>
+	    <item name="android:windowTranslucentNavigation">true</item>
+    -->
+    <!--
+    支持V7的沉浸状态栏AppCompatTheme
+	<style name="AppCompatCjTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@android:color/transparent</item>
+	    <item name="android:windowBackground">@android:color/transparent</item>
+	    <item name="android:windowIsTranslucent">true</item>  
+	</style>
+    -->
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="text_18_ffffff">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="text_16_666666">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+
+    <style name="sdw_white">
+        <item name="android:shadowColor">#7fffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.65</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="sdw_79351b">
+        <item name="android:shadowColor">#ff79351b</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="text_15_ffffff_sdw" parent="@style/sdw_79351b">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="text_15_666666_sdw" parent="@style/sdw_white">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+
+    <style name="AppTheme3" parent="AppBaseTheme">
+
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+        <!--输入框统一配色-->
+        <item name="android:colorControlActivated">@color/tab_text_selected</item>
+        <item name="android:colorControlNormal">@color/black</item>
+        <!--对话框按钮颜色-->
+        <item name="buttonBarPositiveButtonStyle">@style/positiveBtnStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/positiveBtnStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/positiveBtnStyle</item>
+    </style>
+
+    <!-- 透明activity的style -->
+    <style name="transparent_activity">
+        <item name="android:windowBackground">@color/translucent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <!-- 复选框 -->
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:layout_marginLeft">1.5dip</item>
+    </style>
+
+    <!-- AppBackUp Base application theme. -->
+
+
+    <!-- load -->
+    <style name="LoadingDialog" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <!--对话框Style-->
+    <!--确定按钮样式-->
+    <style name="positiveBtnStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/tab_text_selected</item>
+    </style>
+    <!--取消按钮样式
+    <style name="negativeBtnstyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/tab_text_selected</item>
+    </style>-->
+
+    <!-- 美句社区 -->
+    <style name="MJTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!--
+        Customize your theme here.
+        <item name="colorPrimary">@color/totalTitleB</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item> 
+        <item name="android:windowTranslucentStatus">true</item>
+        -->
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!--
+        Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色
+	    <item name="android:statusBarColor">@android:color/transparent</item>
+        -->
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:statusBarColor">@color/totalTitleB</item>
+        <!--输入框统一配色-->
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/tab_text_selected</item>
+        <!--对话框按钮颜色-->
+        <item name="buttonBarPositiveButtonStyle">@style/positiveBtnStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/positiveBtnStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/positiveBtnStyle</item>
+    </style>
+
+    <!-- 安卓5.0以上沉浸状态栏样式 -->
+    <style name="SunAccountTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!-- Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+
+    <!-- 去掉tab顶部的黑边 -->
+    <style name="no_title" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- 底部导航按钮的样式 -->
+    <style name="navigation_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+        <item name="android:textColor">@color/selector_main_bottom_tab_text</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- 分类按钮 -->
+    <style name="KeyRadioButton">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/radio_button</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/radio_button_text_color</item>
+    </style>
+
+    <!-- 从上至下动画 -->
+    <style name="popupTopToBottomAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/activity_close_enter</item>
+        <item name="android:windowExitAnimation">@anim/activity_close_exit</item>
+    </style>
+
+    <!-- 常用蓝色按钮样式 -->
+    <style name="BlueButton">
+        <item name="android:background">@drawable/login_button_style</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:paddingStart">1dp</item>
+        <item name="android:paddingEnd">1dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- 常用蓝色无长款样式按钮样式 -->
+    <style name="norBlueButton">
+        <item name="android:background">@drawable/login_button_style</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:paddingStart">1dp</item>
+        <item name="android:paddingEnd">1dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- 支持V7的沉浸状态栏AppCompatTheme -->
+    <style name="AppCompatCjTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!-- 句子类别复选框 -->
+    <style name="sentenceCategoryCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+
+    <!--输入框样式-->
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/tab_text_selected</item>
+    </style>
+
+    <style name="AppTheme3.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme3.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme3.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- 神奇便签 -->
+    <style name="MagicNoteTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!--
+        Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色
+        -->
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:statusBarColor">@color/blue_m</item>
+        <!--输入框统一配色-->
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/tab_text_selected</item>
+        <!--对话框按钮颜色-->
+        <item name="buttonBarPositiveButtonStyle">@style/positiveBtnStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/positiveBtnStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/positiveBtnStyle</item>
+    </style>
+    <!--自定义加载动画-->
+    <style name="AVLoadingIndicatorView">
+        <item name="minWidth">48dip</item>
+        <item name="maxWidth">48dip</item>
+        <item name="minHeight">48dip</item>
+        <item name="maxHeight">48dip</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+    <style name="AVLoadingIndicatorView.Small">
+        <item name="minWidth">24dip</item>
+        <item name="maxWidth">24dip</item>
+        <item name="minHeight">24dip</item>
+        <item name="maxHeight">24dip</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+
+</resources>

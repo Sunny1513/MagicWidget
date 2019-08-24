@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="WebViewWithProgress">
+	    <attr name="progressStyle" format="enum">
+	        <enum name="horizontal" value="0"/>
+	        <enum name="circle" value="1"/>
+	    </attr>
+	    <attr name="barHeight" format="dimension" />
+	</declare-styleable>
+    
+    <declare-styleable name="ZLayout">
+        <attr name="lineSpacing" format="dimension" />
+        <attr name="maxLines" format="integer" />
+    </declare-styleable>
+    
+    <declare-styleable name="LineBreakLayout">
+        <!--标签之间左右距离-->
+        <attr name="leftAndRightSpace" format="dimension" />
+        <!--标签行距-->
+        <attr name="rowSpace" format="dimension" />
+    </declare-styleable>
+    
+    <!-- 菜单项 -->
+    <declare-styleable name="MyItemView">
+        <attr name="show_bottomline" format="boolean" />
+        <attr name="show_leftimg" format="integer" />
+        <attr name="show_text" format="string" />
+        <attr name="show_righttext" format="string" />
+    </declare-styleable>
+
+    <!--自定义加载动画-->
+    <declare-styleable name="AVLoadingIndicatorView">
+        <attr name="minWidth" format="dimension" />
+        <attr name="maxWidth" format="dimension"/>
+        <attr name="minHeight" format="dimension" />
+        <attr name="maxHeight" format="dimension"/>
+        <attr name="indicatorName" format="string"/>
+        <attr name="indicatorColor" format="color"/>
+    </declare-styleable>
+
+    <!--自定义缩放ImageView-->
+    <declare-styleable name="ScaleImageView">
+        <attr name="isLimitSize" format="boolean" />
+    </declare-styleable>
+    
+</resources>

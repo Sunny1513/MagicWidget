@@ -1,0 +1,13 @@
+<resources>
+    <!-- 安卓5.0以上沉浸状态栏样式 -->
+    <style name="SunAccountTheme" parent="android:Theme.Material.Light.NoActionBar">
+	    <item name="android:windowTranslucentStatus">false</item>
+	    <item name="android:windowTranslucentNavigation">true</item>
+	    <!--Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色-->
+	    <item name="android:statusBarColor">@android:color/transparent</item>
+	    <!-- android:windowLightStatusBar即可， 设置为true时，当statusbar的背景颜色为淡色时，statusbar的文字颜色会变成灰色 -->
+ 		<item name="android:windowLightStatusBar">true</item>
+        <!-- 设置activity切换动画 -->  
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item> 
+    </style>
+</resources>

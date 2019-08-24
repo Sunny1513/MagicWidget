@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 Chandra Poerwanto
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!-- Palette colors referenced by top-level themes. -->
+    <color name="colorAccent">#FF4081</color>
+    <color name="theme_primary">#ff263238</color>
+    <color name="theme_primary_dark">#ff21272b</color>
+    <color name="theme_accent">#ff009688</color>
+    
+    <color name="transparent">#7f000000</color>
+    <!-- 透明的 -->
+	<color name="transparent_white">#93DCFF</color>
+    <color name="white">#ffffff</color>
+    <color name="primary">#FF03A9F4</color>
+    <color name="primary_dark">#FF0288D1</color>
+    <color name="status_bar_color">@color/primary_dark</color> 
+	<color name="transparent_red">#ddff5654</color>
+	
+	<!-- 快捷支付小部件 -->
+	<color name="quickpay_widget_background_color">#93DCFF</color>
+    <color name="card_backgroud_color">#33000000</color>
+    <color name="card_title_textcolor">#ff2f2f2f</color>
+    <color name="new_leftscreen_edit_selector_pressed">#fff1f1f1</color>
+    <color name="new_leftscreen_list_selector_pressed">#08000000</color>
+    <color name="new_leftscreen_expandable_btn_text_color">#99000000</color>
+    <color name="custom_title_withbtn_btndisabled">#2b000000</color>
+    <color name="custom_paycard_wechat_color">#ff93c364</color>
+    <color name="custom_paycard_alipay_color">#ff66b3fc</color>
+	<color name="quickpay_widget_layout_background_color">#F7FBFF</color>
+    
+    <!-- 工具箱默认主题 -->
+	 <!-- <color name="totalTitleB">#0281FF</color>总标题1 -->
+	<color name="totalTitleB">#5B3FFF</color> <!-- 总标题 -->
+	 <!-- <color name="title_bar">#E3FFE3</color>功能栏标题1 -->
+	<color name="title_bar">#EAFFF1</color> <!-- 功能栏标题 -->
+    <!-- <color name="title_text">#222222</color> 功能栏标题字体颜色 -->
+    <color name="title_text">#6C53FF</color> <!-- 功能栏标题字体颜色 -->
+	<color name="main_background_color">#F2FBFF</color> <!-- 全局背景颜色 -->
+	<color name="text_text">#636363</color> <!-- 介绍文字颜色 -->
+	<color name="set_item_title_color">#000000</color>
+	<color name="set_item_text_color">#858585</color>
+    <color name="layout_border_color">#CACDD1</color>
+    
+    <!-- 半透明 -->
+    <color name="translucent_background">#80000000</color>
+    <!-- 半透明 -->
+    <color name="translucent_background_60">#99000000</color>
+	<!-- 苍麒麟色 -->
+	<color name="palegoldenrod">#EEE8AA</color>
+	<!-- 黑色 -->
+	<color name="black">#000000</color>
+	<!-- 青色 -->
+	<color name="qing">#2E9AFE</color>
+	<!-- 小部件配置预览背景颜色 -->
+	<color name="text_widget_preview_layout_color">#2ea5f9</color>
+	<!-- 灰色 -->
+	<color name="hui">#9A9A9A</color>
+	<color name="hui_2">#8B8B8B</color>
+	<color name="hui_title">#444444</color>
+	
+	<!-- 提取apk -->
+    <color name="appbackup_colorPrimary">#3F51B5</color>
+    <color name="appbackup_colorPrimaryDark">#303F9F</color>
+    <color name="appbackup_colorAccent">#FF4081</color>
+    <color name="appbackup_colorClicked">#21000000</color>
+    
+    <!-- 美句 -->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!-- *********************************底部选项卡区域********************************* -->
+    <!-- 底部选项卡底部背景色 -->
+    <color name="tab_bg_normal">#00000000</color>
+    <color name="tab_bg_selected">#00000000</color>
+    <!-- 底部选项卡文本颜色 -->
+    <color name="tab_text_normal">#8a8a8a</color>
+    <color name="tab_text_selected">#38ADFF</color>
+    <!-- 其他 -->
+    <color name="background_f_0">#EAEAEA</color>
+    <color name="background_f_1">#EAEAEA</color>
+    <color name="background_f_2">#F5F5F5</color>
+    <color name="blackgrey">#ff0a0a0a</color>
+	<color name="layout_zi_1">#A393FF</color>
+	<color name="layout_zi_2">#6C53FF</color>
+	<!-- 透明灰 -->
+    <color name="transparent_hui">#26D1D1</color>
+	<!-- 透明灰 -->
+    <color name="transparent_hui_2">#D1D1D1</color>
+	<!-- 天蓝色 -->
+	<color name="tianlan">#33b4e3</color>
+	<color name="tianlan_pressed">#2e92b6</color>
+	<color name="colorBlue2">#2988CC</color>
+	<color name="colorGray">#6c6c6c</color>
+	<!-- 橙色 -->
+	<color name="cheng">#FF9933</color>
+	<color name="cheng_2">#FF9900</color>
+    <color name="cheng_3">#FF6600</color>
+    <color name="gray">#fccf</color>
+    
+    <!-- 蓝色 -->
+    <color name="tianlan_shen">#22a3e0</color>
+
+    <!--主页边框线颜色-->
+    <color name="main_border_line_color">#DFDFDF</color>
+    <color name="main_layout_background">#ECECEC</color>
+
+    <!--粉红-->
+    <color name="fh">#f3b1c8</color>
+    <color name="fh_press">#F09FBC</color>
+    <!-- 淡蓝色 -->
+    <color name="dan_lan">#64C5EA</color>
+
+    <!--神奇便签-->
+    <color name="note_view_background">#F3F3F3</color>
+    <color name="black_m">#BFBFBF</color>
+    <color name="black_h">#808A87</color>
+    <color name="black_xh">#808080</color>
+    <color name="black_xxh">#404040</color>
+    <color name="blue_m">#6699FF</color>
+    <color name="blue_h">#3366CC</color>
+    <color name="blue_xh">#003399</color>
+    <color name="green_m">#99CC33</color>
+    <color name="green_h">#00CC00</color>
+    <color name="green_xh">#66FF00</color>
+    <color name="red_m">#FFCC00</color>
+    <color name="red_h">#FF9900</color>
+    <color name="red_xh">#FF6600</color>
+    <color name="red">#CC0000</color>
+    <color name="theme">#809080</color>
+    <color name="purple">#9933FA</color>
+    <!--白灰色-->
+    <color name="white_hui">#E8E8E8</color>
+
+    <!--真正的透明白-->
+    <color name="transparent_white_true">#e1ffffff</color>
+
+    <!--Big美句默认颜色-->
+    <color name="big_sentence_default_color">#ee958f</color>
+    <color name="big_sentence_small_default_color">#f7a7a1</color>
+    
+</resources>

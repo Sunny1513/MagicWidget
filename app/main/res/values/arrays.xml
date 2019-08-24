@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 Chandra Poerwanto
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string-array name="fun_title_key">
+        <item>微信付款</item>
+        <item>微信扫一扫</item>
+        <item>微信收款</item>
+        <item>支付宝付款</item>
+        <item>支付宝扫一扫</item>
+        <item>支付宝收款</item>
+        <item>支付宝转账</item>
+        <item>支付宝蚂蚁森林</item>
+        <item>支付宝蚂蚁庄园</item>
+        <item>支付宝滴滴打车</item>
+        <item>支付宝我的二维码</item>
+        <item>支付宝乘车码</item>
+        <item>支付宝实时公交</item>
+        <item>支付宝我的快递</item>
+        <item>上海Metro大都会乘车码</item>
+    </string-array>
+
+    <string-array name="fun_title_values">
+        <item>WA</item>
+        <item>WS</item>
+        <item>WC</item>
+        <item>AA</item>
+        <item>AS</item>
+        <item>AC</item>
+        <item>AZ</item>
+        <item>AL</item>
+        <item>AMYZY</item>
+        <item>ADC</item>
+        <item>AME</item>
+        <item>ACC</item>
+        <item>AGJ</item>
+        <item>AKD</item>
+        <item>MQD</item>
+    </string-array>
+    
+    
+    <string-array name="mb_entries">
+        <item>您喜欢的人是？</item>
+        <item>您父母亲的名字是？</item>
+        <item>您的毕业学校是？</item>
+        <item>您所学的专业是？</item>
+        <item>您最喜欢的ROM是？</item>
+    </string-array>
+
+    <string-array name="mb_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    
+    <!-- 默认精品文集 -->
+    <string-array name="default_corpus_entries">
+        <item>有些事现在不做，一辈子都不会做。</item>
+        <item>所谓努力，就是主动而有目的的活动。</item>
+        <item>几乎所有人都把自己向往而不可得的境界称作“幸福”。</item>
+        <item>每一个不曾努力的日子，都是对青春的辜负。</item>
+        <item>愿你在被打击时，记起你的珍贵，抵抗恶意；\n愿你在迷茫时，坚信你的珍贵，爱你所爱，行你所行，听从你心，无问西东。</item>
+        <item>如果皱纹终将刻在我们的额头，我们唯一能做的，就是不让它刻在我们心上。</item>
+        <item>人类失去联想，世界将会怎样？</item>
+        
+        <item>后来的我们什么都有了，却没有了我们 。</item>
+        <item>等风来不如追风去 \n追逐的过程就是人生的意义</item>
+        <item>放弃不难，但坚持一定很酷。</item>
+        <item>拥抱孤独之后，时间会让你发现自己的力量无穷。</item>
+        <item>有些事情，现在不去做，以后很有可能永远也做不了。不是没时间，就是因为有时间，你才会一拖再拖，放心让它们搁在那里，任凭风吹雨打，铺上厚厚的灰尘。而你终将遗忘曾经想要做的事、想要说的话、想要抓住的人。</item>
+        <item>总会有光明的东西的，在未来</item>
+        <item>如果有来生， 要做一棵树， 站成永恒， 没有悲欢的姿势。 \n一半在土里安详， 一半在风里飞扬， 一半洒落阴凉， 一半沐浴阳光， 非常沉默非常骄傲， 从不依靠，从不寻找。</item>
+        <item>要么庸俗，要么孤独。</item>
+        <item>愿你出走半生，归来仍是少年。</item>
+        <item>没有什么比时间更具有说服力了，因为时间无需通知我们就可以改变一切。</item>
+        <item>在你想要放弃的时候，想想是什么让你当初坚持走到了这里。</item>
+        <item>心若向阳，何惧悲伤。</item>
+        <item>低头不是认输，是要看清自己的路;仰头不是骄傲，是要看见自己的天空。</item>
+        <item>If you\'re afraid to fail then you\'re probably going to fail. \n如果你害怕失败，那意味着你已经输了。</item>
+        <item>愿你一生努力一生被爱，想要的都拥有，得不到的都释怀。</item>
+        <item>人但有追求，世界亦会让路。</item>
+        <item>不戴表，并不是让你忘记时间，而是让自己去掌控时间的尺度。</item>
+        <item>感觉辛苦，是因为你在走上坡路。</item>
+        <item>生活就像一盒巧克力，你永远不知道下一块会是什么味道。 \nLife was a box of chocolates,you never know what you\'re gonna get.</item>
+        <item>存在本身就是永恒的奇迹，这就是生活。</item>
+        <item>自己选择的路，跪着也要把它走完。</item>
+        <item>每天醒来，敲醒自己的不是钟声，而是梦想。</item>
+        <item>人不怕走在黑夜里，就怕心中没有阳光。</item>
+        <item>没有口水与汗水，就没有成功的泪水。</item>
+        <item>记住该记住的，忘记该忘记的。改变能改变的，接受不能改变的。</item>
+        <item>坚持把简单的事情做好就是不简单，坚持把平凡的事情做好就是不平凡。所谓成功，就是在平凡中做出不平凡的坚持。</item>
+        <item>掉在水里你不会淹死，呆在水里你才会淹死，你只有游，不断的往前游。</item>
+        <item>心中有了方向，一路才不会跌跌撞撞。</item>
+        <item>将来的你 ，一定会感谢现在拼命的自己。</item>
+        <item>得不到的永远在骚动，被偏爱的都有恃无恐。</item>
+        <item>生活总是让我们遍体鳞伤，但到后来，那些受伤的地方一定会变成我们最强壮的地方。</item>
+        <item>当才华撑不起野心的时候，只能安静读书。</item>
+        <item>人生最可怕的事，是一边后悔一边生活。</item>
+        <item>成年人的世界，除了容易发胖，其他的都不容易。</item>
+        <item>如果没有穿越过漫漫黑暗，没有经历过痛彻心扉的过往，你永远不会明白看到星光时的喜悦，也自然不会懂得黎明的意义。</item>
+        <item>愿所有人的青春， 都能被温柔以待。</item>
+        <item>曾经有一份真诚的爱情放在我面前，我没有珍惜，等我失去的时候我才后悔莫及，人世间最痛苦的事莫过于此。 \n如果上天能够给我一个再来一次的机会，我会对那个女孩子说三个字：我爱你。 
+		\n如果非要在这份爱上加上一个期限，我希望是…… 
+		\n一万年
+		</item>
+        <item>我不去想是否能够成功，\n既然选择了远方，\n便只顾风雨兼程。</item>
+    </string-array>
+    <!-- 默认精品文集来源 -->
+    <string-array name="default_corpus_origin_entries">
+        <item>电影《练习曲》</item>
+        <item>村上春树</item>
+        <item>周国平《守望的距离》</item>
+        <item>汤木《将来的你，一定会感谢现在拼命的自己》</item>
+        <item>《无问西东》</item>
+        <item>陈可辛《中国合伙人》</item>
+        <item>佚名</item>
+        
+        <item>《后来的我们》台词</item>
+        <item>郭德纲《祖宗十九代》</item>
+        <item>东野圭吾《解忧杂货店》</item>
+        <item>张皓宸《后来时间都与你有关》</item>
+        <item>韩梅梅《有些事现在不做，一辈子都不会做了》</item>
+        <item>韩寒</item>
+        <item>三毛《说给自己听》</item>
+        <item>叔本华《要么孤独，要么庸俗》</item>
+        <item>孙衍</item>
+        <item>余华《活着》</item>
+        <item>科比</item>
+        <item>七月《心若向阳，何惧忧伤》</item>
+        <item>科比</item>
+        <item>科比</item>
+        <item>八月长安</item>
+        <item>爱默生</item>
+        <item>韩梅梅</item>
+        <item>马云</item>
+        <item>《阿甘正传》</item>
+        <item>泰戈尔</item>
+        <item>佚名</item>
+        <item>佚名</item>
+        <item>佚名</item>
+        <item>佚名</item>
+        <item>佚名</item>
+        <item>佚名</item>
+        <item>电影《中国合伙人》</item>
+        <item>汤木《将来的你，一定会感谢现在拼命的自己》</item>
+        <item>汤木</item>
+        <item>张爱玲《红玫瑰与白玫瑰》</item>
+        <item>海明威《永别了武器》</item>
+        <item>电影《中国合伙人》</item>
+        <item>《55岁开始的Hello Life》</item>
+        <item>米小粒</item>
+        <item>《你的坚持终将美好》</item>
+        <item>《悲伤逆流成河》</item>
+        <item>周星驰《大话西游》</item>
+        <item>汪国真</item>
+    </string-array>
+    
+    <!-- 应用推荐排序方式 -->
+    <string-array name="recommend_app_sort_entries">
+        <item>按使用顺序（推荐）</item>
+        <item>按应用名称</item>
+        <item>按使用次数</item>
+    </string-array>
+    <string-array name="recommend_app_sort_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!-- 应用推荐显示行数 -->
+    <string-array name="recommend_app_show_lines_entries">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="recommend_app_show_lines_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- 应用推荐运行模式 -->
+    <string-array name="recommend_app_run_mode_entries">
+        <item>仅无障碍/辅助功能方式</item>
+        <!-- <item>无障碍+模拟桌面方式（测试功能）</item> -->
+    </string-array>
+    <string-array name="recommend_app_run_mode_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <!-- 抢红包 -->
+    <string-array name="wechat_after_open_settings_titles">
+        <item>拆红包</item>
+        <item>看看大家的手气</item>
+    </string-array>
+    <string-array name="wechat_after_open_settings_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    
+    <!-- 美句类别标题 -->
+    <string-array name="sentence_category_titles">
+        <item>畅所欲言</item>
+        <item>原创美句</item>
+        <item>英文美句</item>
+        <item>精选句集</item>
+        <item>青春励志</item>
+        <item>名人名句</item>
+        <item>书籍名句</item>
+        <item>电影台词</item>
+        <item>唯美伤感</item>
+        <item>诗词歌赋</item>
+        <item>搞笑幽默</item>
+        <item>游戏动漫</item>
+        <item>头脑风暴</item>
+        <item>土味情话</item>
+        <item>品位段子</item>
+        <item>绕个口令</item>
+        <item>情感短文</item>
+        <item>精英人生</item>
+    </string-array>
+
+    <!-- 是否推送 -->
+    <string-array name="is_push_titles">
+        <item>智能识别</item>
+        <item>不推送</item>
+        <item>推送</item>
+    </string-array>
+    <string-array name="is_push_values">
+        <item>-2</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+
+    <!-- 计时模式 -->
+    <string-array name="counttime_mode_titles">
+        <item>目标日期时间</item>
+        <item>每天</item>
+    </string-array>
+    <string-array name="counttime_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- 计时类型 -->
+    <string-array name="counttime_type_titles">
+        <item>倒计时</item>
+        <item>正计时</item>
+    </string-array>
+    <!-- 倒计时主题模式 -->
+    <string-array name="counttime_style_titles">
+        <item>风格一（上下）</item>
+        <item>风格二（一行）</item>
+        <item>风格三（左右）</item>
+    </string-array>
+
+    <!-- 星座运势样式 -->
+    <string-array name="constellation_style_titles">
+        <item>男生版</item>
+        <item>女生版</item>
+    </string-array>
+    <string-array name="constellation_style_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- 主题样式 -->
+    <string-array name="theme_style_titles">
+        <item>主题一</item>
+        <item>主题二</item>
+    </string-array>
+
+    <!-- 星座 -->
+    <string-array name="constellation_titles">
+        <item>白羊座（03.21-04.19）</item>
+        <item>金牛座（04.20-05.20）</item>
+        <item>双子座（05.21-06.21）</item>
+        <item>巨蟹座（06.22-07.22）</item>
+        <item>狮子座（07.23-08.22）</item>
+        <item>处女座（08.23-09.22）</item>
+        <item>天秤座（09.23-10.23）</item>
+        <item>天蝎座（10.24-11.22）</item>
+        <item>射手座（11.23-12.21）</item>
+        <item>摩羯座（12.22-01.19）</item>
+        <item>水瓶座（01.20-02.18）</item>
+        <item>双鱼座（02.19-03.20）</item>
+    </string-array>
+    <string-array name="constellation_values">
+        <item>白羊座</item>
+        <item>金牛座</item>
+        <item>双子座</item>
+        <item>巨蟹座</item>
+        <item>狮子座</item>
+        <item>处女座</item>
+        <item>天秤座</item>
+        <item>天蝎座</item>
+        <item>射手座</item>
+        <item>摩羯座</item>
+        <item>水瓶座</item>
+        <item>双鱼座</item>
+    </string-array>
+    <string-array name="constellation_en_values">
+        <item>aries</item>
+        <item>taurus</item>
+        <item>gemini</item>
+        <item>cancer</item>
+        <item>leo</item>
+        <item>virgo</item>
+        <item>libra</item>
+        <item>scorpio</item>
+        <item>sagittarius</item>
+        <item>capricorn</item>
+        <item>aquarius</item>
+        <item>pisces</item>
+    </string-array>
+
+    <!-- 星座运势类型 -->
+    <string-array name="fortune_type_titles">
+        <item>今日运势</item>
+        <item>明日运势</item>
+    </string-array>
+    <string-array name="fortune_type_values">
+        <item>today</item>
+        <item>tomorrow</item>
+    </string-array>
+
+    <!-- 对齐方式 -->
+    <string-array name="gravity_mode_titles">
+        <item>左对齐</item>
+        <item>右对齐</item>
+        <item>居中对齐</item>
+    </string-array>
+    <!-- 图片对齐方式 -->
+    <string-array name="img_gravity_mode_titles">
+        <item>默认</item>
+        <item>居中</item>
+        <item>居上</item>
+        <item>居下</item>
+    </string-array>
+    <!-- 图片切换时间间隔 -->
+    <string-array name="cut_time_interval_titles">
+        <item>系统管理（推荐）</item>
+        <item>每5秒</item>
+        <item>每10秒</item>
+        <item>每15秒</item>
+        <item>每30秒</item>
+        <item>每1分钟</item>
+        <item>每5分钟</item>
+        <item>每10分钟</item>
+    </string-array>
+    <!-- 图片切换顺序 -->
+    <string-array name="cut_img_seq_titles">
+        <item>按文件名称</item>
+        <item>随机</item>
+    </string-array>
+
+    <!-- 快捷支付主题模式 -->
+    <string-array name="quickpay_style_titles">
+        <item>风格一</item>
+        <item>风格二</item>
+    </string-array>
+
+    <!-- 快捷支付面板排序方式 -->
+    <string-array name="quickpay_sort_ways">
+        <item>AI智能排序</item>
+        <item>固定排序</item>
+    </string-array>
+    <!-- 快捷支付面板显示位置 -->
+    <string-array name="quickpay_show_places">
+        <item>底部</item>
+        <item>居中</item>
+        <item>居上</item>
+    </string-array>
+    <!-- 快捷支付面板每行显示数量 -->
+    <string-array name="quickpay_row_nums">
+        <item>4项</item>
+        <item>5项</item>
+        <item>6项</item>
+        <item>7项</item>
+        <item>8项</item>
+    </string-array>
+
+    <!--广告站点URL-->
+    <string-array name="adBlockUrl">
+        <item>ubmcmm.baidustatic.com</item>
+        <item>yingxiao.baidu.com</item>
+        <item>cpro.baidu</item>
+        <item>pos.baidu</item>
+        <item>bmjjs.xzw.com</item>
+        <item>lianmeng.360.cn</item>
+        <item>union.sogou.com/</item>
+        <item>a.baidu.com</item>
+        <item>baixing.com</item>
+        <!--<item>googleads.g.doubleclick</item>-->
+        <item>googlesyndication.com</item>
+    </string-array>
+
+    <!-- 便签点击操作 -->
+    <string-array name="note_click_do_titles">
+        <item>编辑便签</item>
+        <item>预览便签</item>
+    </string-array>
+
+    <!-- 便签显示条数 -->
+    <string-array name="note_show_num_titles">
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+
+    <!-- 便签编辑按钮风格 -->
+    <string-array name="note_edit_icon_style_titles">
+        <item>白色</item>
+        <item>灰色</item>
+    </string-array>
+    <!-- 便签小部件排序方式 -->
+    <string-array name="note_sort_mode_entries">
+        <item>按编辑时间（倒序）</item>
+        <item>按编辑时间（升序）</item>
+        <item>按创建时间（倒序）</item>
+        <item>按创建时间（升序）</item>
+        <item>按便签标题</item>
+    </string-array>
+
+    <!-- 便签小部件风格 -->
+    <string-array name="note_widget_style_titles">
+        <item>温情岁月</item>
+        <item>简约1（带间隔线）</item>
+        <item>简约2（无间隔线）</item>
+        <item>简白</item>
+    </string-array>
+
+    <!-- 屏幕助手底部内容 -->
+    <string-array name="appusage_bottom_content_titles">
+        <item>应用使用次数</item>
+        <item>全网排名</item>
+    </string-array>
+    <!-- 屏幕助手小部件主题 -->
+    <string-array name="appusage_widget_style_titles">
+        <item>阿米尼之星/amin</item>
+        <item>温情时光</item>
+        <item>多彩人生</item>
+        <item>海洋风/Scooter</item>
+        <item>黎雾·芝本绿/Mirage</item>
+        <item>白色恋人</item>
+        <item>夜幕</item>
+        <item>透明之心</item>
+    </string-array>
+    <!-- 屏幕助手中间内容 -->
+    <string-array name="appusage_center_content_titles">
+        <item>使用建议</item>
+        <item>美句</item>
+    </string-array>
+
+    <!-- 默认Big美句模板 -->
+    <string-array name="big_sentence_big_chars">
+        <item>王耀</item>
+        <item>米英</item>
+        <item>思路组</item>
+        <item>初恋组</item>
+        <item>极东</item>
+        <item>伊万</item>
+        <item>米英</item>
+        <item>初恋</item>
+        <item>独战</item>
+        <item>独立</item>
+        <item>那谁</item>
+        <item>自己</item>
+        <item>努力</item>
+        <item>坚持</item>
+    </string-array>
+    <string-array name="big_sentence_small_chars">
+        <item>愿我有生之年，得以见你君临天下</item>
+        <item>知道什么是绅士吗，绅士总是走在HERO面前的。</item>
+        <item>黄沙散尽时，故人复来焉。</item>
+        <item>再见面时，你我不过是最熟悉的陌生人罢了。</item>
+        <item>你可不可以和我做朋友？</item>
+        <item>为何七月的你总是那么安静？</item>
+        <item>我从未后悔过两件事，一件是独立，一件是爱上你</item>
+        <item>你在你最美好的年华逝去，但在我的心中却是永痕</item>
+        <item>从何时起他颂着自由与我背离</item>
+        <item>孩子们渐渐长大，独留我一人原地等待</item>
+        <item>如果世界真的不喜欢你，那世界就是我的敌人了。</item>
+        <item>选择的路，跪着也要走完。</item>
+        <item>努力真的很难，但不努力，就会一直难</item>
+        <item>你的努力，终将美好</item>
+    </string-array>
+</resources>
