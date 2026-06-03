@@ -5,7 +5,7 @@
  
 # ★主要功能：
 
-1、图片小组件：可添加明星、爱豆、宠物等任意图片或者GIF动图到桌面，亦支持播放相册幻灯片以及地球实时卫星照片、替换APP桌面图标。
+1、图片小组件：可添加明星、爱豆、宠物等任意图片或者GIF / WebP动图到桌面，亦支持播放相册幻灯片以及地球实时卫星照片、替换APP桌面图标。
 
 2、美句小组件、一言小部件。
 
@@ -27,9 +27,9 @@
 
 11、剪切板小组件：在桌面快捷查看剪切板历史。
 
-12、今日步数/日期时间/天气/电池信息/存储空间/空调/AI智慧应用建议/BIG美句/天气信息/日期日历/语音图片/音乐小组件/Android X模块/表盘时钟/车辆尾号限行小组件/灵动岛/屏幕边缘闪光。
+12、今日步数/日期时间/天气/电池信息/存储空间/空调/AI智慧应用建议/BIG美句/天气信息/日期日历/语音图片/音乐小组件/Android X模块/表盘时钟/车辆尾号限行小组件/灵动岛/屏幕边缘闪光/下班倒计时小组件。
 
-13、完美支持华为EMUI桌面/小米桌面/联想ZUI桌面/oppo桌面/vivo桌面/魔秀桌面/微软桌面/360桌面/Go桌面/乐桌面等主流桌面。
+13、完美支持三星/摩托罗拉/华为/小米/联想ZUI桌面/OPPO桌面/vivo桌面/微软桌面等安卓主流桌面。
 
 # MagicWidgets
 
@@ -41,7 +41,7 @@ MagicWidgets aims to deliver an ultra-low-power, eco-friendly, stable, and featu
 
 ## ★ Key Features:
 
-1. **Image Widgets**: Add any photo or GIF (e.g., celebrities, pets, etc.) directly to your home screen. Supports slideshow playback from your photo album, real-time satellite images of Earth, and custom app icon replacement.
+1. **Image Widgets**: Add any photo or GIF / WebP (e.g., celebrities, pets, etc.) directly to your home screen. Supports slideshow playback from your photo album, real-time satellite images of Earth, and custom app icon replacement.
 
 2. **Inspirational Quotes Widget** and **Hitokoto (One-Liner) Widget**.
 
@@ -81,5 +81,6 @@ MagicWidgets aims to deliver an ultra-low-power, eco-friendly, stable, and featu
    - Vehicle License Plate Restrictions  
    - Dynamic Island (Lingdong Island)  
    - Edge Screen Glow Effects  
+   - Off work countdown widget
 
-13. **Full Compatibility**: Perfectly supports major launchers and OS interfaces, including Huawei EMUI, HarmonyOS, Xiaomi (MIUI), Lenovo ZUI, OPPO, vivo, Moxiu, Microsoft Launcher, 360 Launcher, GO Launcher, Leshi Launcher, and more.
+13. **Full Compatibility**: Perfectly supports mainstream Android desktops such as Samsung/Motorola/Huawei/Xiaomi/Lenovo ZUI desktop/OPPO desktop/Vivo desktop/Microsoft desktop.

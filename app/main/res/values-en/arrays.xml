@@ -1,0 +1,700 @@
+<resources>
+    <string-array name="fun_title_key">
+        <item>WeChat payment</item>
+        <item>WeChat scan</item>
+        <item>Wechat collection</item>
+        <!--<item>微信乘车码</item>-->
+        <item>Alipay payment</item>
+        <item>Alipay scan</item>
+        <item>Alipay collection</item>
+        <item>Alipay transfer</item>
+        <item>Alipay Ant Forest</item>
+        <item>Alipay Ant Farm</item>
+        <item>Alipay Didi Taxi</item>
+        <item>Alipay my QR code</item>
+        <item>Alipay ride code</item>
+        <item>Alipay real-time bus</item>
+        <item>Alipay My Express</item>
+        <item>Alipay Cainiao Station ID Code</item>
+        <item>Shanghai Metro Metropolitan Bus Code</item>
+    </string-array>
+
+    <string-array name="fun_title_values">
+        <item>WA</item>
+        <item>WS</item>
+        <item>WC</item>
+        <!--<item>WCCM</item>-->
+        <item>AA</item>
+        <item>AS</item>
+        <item>AC</item>
+        <item>THE</item>
+        <item>AL</item>
+        <item>AMYZY</item>
+        <item>ADC</item>
+        <item>AME</item>
+        <item>ACC</item>
+        <item>AG</item>
+        <item>AKD</item>
+        <item>ASFM</item>
+        <item>MQD</item>
+    </string-array>
+
+
+    <string-array name="mb_entries">
+        <item>Who is your favorite\?</item>
+        <item>What are your parents\' names\?</item>
+        <item>What is your graduate school\?</item>
+        <item>What is your major\?</item>
+        <item>What is your favorite ROM\?</item>
+    </string-array>
+
+    <string-array name="mb_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- 应用推荐排序方式 -->
+    <string-array name="recommend_app_sort_entries">
+        <item>In order of use (recommended)</item>
+        <item>By app name</item>
+        <item>By usage</item>
+    </string-array>
+    <string-array name="recommend_app_sort_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!-- 应用推荐显示行数 -->
+    <string-array name="recommend_app_show_lines_entries">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="recommend_app_show_lines_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- 应用推荐运行模式 -->
+    <string-array name="recommend_app_run_mode_entries">
+        <item>Accessibility mode only</item>
+        <!-- <item>无障碍+模拟桌面方式（测试功能）</item> -->
+    </string-array>
+    <string-array name="recommend_app_run_mode_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- 是否推送 -->
+    <string-array name="is_push_titles">
+        <item>Smart recognition</item>
+        <item>Do not push</item>
+        <item>Push</item>
+    </string-array>
+    <string-array name="is_push_values">
+        <item>-2</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+
+    <!-- 计时模式 -->
+    <string-array name="counttime_mode_titles">
+        <item>Target date time</item>
+        <item>every day</item>
+        <item>every year</item>
+    </string-array>
+    <string-array name="counttime_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- 计时类型 -->
+    <string-array name="counttime_type_titles">
+        <item>Countdown</item>
+        <item>Timer</item>
+    </string-array>
+    <!-- 倒计时主题模式 -->
+    <string-array name="counttime_style_titles">
+        <item>Style one (up and down)</item>
+        <item>Style 2 (one line)</item>
+        <item>Style three (left and right)</item>
+        <item>style four (three lines)</item>
+    </string-array>
+
+    <!-- 星座运势样式 -->
+    <string-array name="constellation_style_titles">
+        <item>boy version</item>
+        <item>girl version</item>
+    </string-array>
+    <string-array name="constellation_style_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- 星座 -->
+    <string-array name="constellation_titles">
+        <item>Aries (03.21–04.19)</item>
+        <item>Taurus (04.20–05.20)</item>
+        <item>Gemini (05.21–06.21)</item>
+        <item>Cancer (06.22–07.22)</item>
+        <item>Leo (07.23–08.22)</item>
+        <item>Virgo (08.23–09.22)</item>
+        <item>Libra (09.23–10.23)</item>
+        <item>Scorpio (10.24–11.22)</item>
+        <item>Sagittarius (11.23–12.21)</item>
+        <item>Capricorn (12.22–01.19)</item>
+        <item>Aquarius (01.20–02.18)</item>
+        <item>Pisces (02.19–03.20)</item>
+    </string-array>
+    <string-array name="constellation_values">
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagittarius</item>
+        <item>Capricorn</item>
+        <item>Aquarius</item>
+        <item>Pisces</item>
+    </string-array>
+    <string-array name="constellation_en_values">
+        <item>aries</item>
+        <item>taurus</item>
+        <item>gemini</item>
+        <item>cancer</item>
+        <item>leo</item>
+        <item>virgo</item>
+        <item>libra</item>
+        <item>scorpio</item>
+        <item>sagittarius</item>
+        <item>capricorn</item>
+        <item>aquarius</item>
+        <item>pisces</item>
+    </string-array>
+
+    <!-- 星座运势类型 -->
+    <string-array name="fortune_type_titles">
+        <item>Today\'s fortune</item>
+        <item>Tomorrow\'s fortune</item>
+    </string-array>
+    <string-array name="fortune_type_values">
+        <item>today</item>
+        <item>tomorrow</item>
+    </string-array>
+
+    <!-- 对齐方式 -->
+    <string-array name="gravity_mode_titles">
+        <item>Left alignment</item>
+        <item>right alignment</item>
+        <item>Center alignment</item>
+        <item>Align top and bottom</item>
+    </string-array>
+    <!-- 图片对齐方式 -->
+    <string-array name="img_gravity_mode_titles">
+        <item>Default</item>
+        <item>centered</item>
+        <item>top</item>
+        <item>Below</item>
+    </string-array>
+    <!-- 图片切换时间间隔 -->
+    <string-array name="cut_time_interval_titles">
+        <item>System Administration (recommended)</item>
+        <item>every 5 seconds</item>
+        <item>every 10 seconds</item>
+        <item>every 15 seconds</item>
+        <item>every 30 seconds</item>
+        <item>every 1 minute</item>
+        <item>every 5 minutes</item>
+        <item>every 10 minutes</item>
+        <item>every 20 minutes</item>
+        <item>every 30 minutes</item>
+        <item>every 40 minutes</item>
+        <item>every 50 minutes</item>
+        <item>every 60 minutes</item>
+        <item>Never</item>
+    </string-array>
+    <!-- 图片切换顺序 -->
+    <string-array name="cut_img_seq_titles">
+        <item>By file name</item>
+        <item>Random</item>
+    </string-array>
+
+    <!-- 快捷支付主题模式 -->
+    <string-array name="quickpay_style_titles">
+        <item>style one</item>
+        <item>style two</item>
+    </string-array>
+
+    <!-- 快捷支付面板排序方式 -->
+    <string-array name="quickpay_sort_ways">
+        <item>AI intelligent sorting</item>
+        <item>Fixed sort</item>
+    </string-array>
+    <!-- 快捷支付面板显示位置 -->
+    <string-array name="quickpay_show_places">
+        <item>bottom</item>
+        <item>centered</item>
+        <item>top</item>
+    </string-array>
+    <!-- 快捷支付面板每行显示数量 -->
+    <string-array name="quickpay_row_nums">
+        <item>4 items</item>
+        <item>5 items</item>
+        <item>6 items</item>
+    </string-array>
+
+    <!-- 便签点击操作 -->
+    <string-array name="note_click_do_titles">
+        <item>Edit note</item>
+        <item>Preview note</item>
+    </string-array>
+
+    <!-- 便签显示条数 -->
+    <string-array name="note_show_num_titles">
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+
+    <!-- 便签编辑按钮风格 -->
+    <string-array name="note_edit_icon_style_titles">
+        <item>white</item>
+        <item>gray</item>
+    </string-array>
+    <!-- 便签小部件排序方式 -->
+    <string-array name="note_sort_mode_entries">
+        <item>According to edit time (reverse order)</item>
+        <item>Sort by edit time (ascending)</item>
+        <item>By creation time (reverse order)</item>
+        <item>Sort by creation time (ascending)</item>
+        <item>By note title</item>
+    </string-array>
+
+    <!-- 便签小部件风格 -->
+    <string-array name="note_widget_style_titles">
+        <item>The years of warmth</item>
+        <item>Simple 1 (with interval lines)</item>
+        <item>Simple 2 (no spacer)</item>
+        <item>Jane White</item>
+    </string-array>
+
+    <!-- 屏幕助手底部内容 -->
+    <string-array name="appusage_bottom_content_titles">
+        <item>App usage count</item>
+        <item>Network Ranking</item>
+    </string-array>
+    <!-- 屏幕助手小部件主题 -->
+    <string-array name="appusage_widget_style_titles">
+        <item>Ocean Wind/Scooter</item>
+        <item>Warm time</item>
+        <item>Colorful life</item>
+        <item>Star of Amini/amin</item>
+        <item>Li Wu·Zhiben Green/Mirage</item>
+        <item>White lover</item>
+        <item>Nightfall</item>
+        <item>Transparent Heart</item>
+        <item>Dark Space</item>
+        <item>Fully transparent</item>
+    </string-array>
+    <!-- 屏幕助手中间内容 -->
+    <string-array name="appusage_center_content_titles">
+        <item>Recommendation for use</item>
+        <item>beautiful sentence</item>
+    </string-array>
+
+    <!-- 待办小部件主题
+    <string-array name="todo_widget_style_titles">
+        <item>white</item>
+        <item>transparent white</item>
+        <item>Black</item>
+        <item>Wireless Strip</item>
+    </string-array> -->
+
+    <!-- 待办状态 -->
+    <string-array name="to_do_item_status_titles">
+        <item>Unfinished</item>
+        <item>Completed</item>
+    </string-array>
+
+    <!-- 待办状态 -->
+    <string-array name="no_data_mag_array">
+        <item>I have been ignorant for a year, and it seems that this year has not changed. The world guarding you is empty…</item>
+        <item>Whether the window of your heart is opened, make a wish to the blue sky, and the sun will come in…</item>
+        <item>Put your heart, my heart, on a string, a clover, a concentric circle, let all the calls looking forward to the future, be a companion while you are young…</item>
+        <item>We are all good children, whimsical children, believe in love, it can last forever…</item>
+        <item>I was full of hope, and I was also sad and hesitant. The time is like an arrow pen, writing joy and sadness…</item>
+        <item>The sun is always after the storm, the dark clouds have eyes, cherish all the touch, every hope is in your hands…</item>
+    </string-array>
+
+    <!-- 屏幕助手-点击标题操作 -->
+    <string-array name="appusage_click_title_do_titles">
+        <item>Refresh screen usage time</item>
+        <item>Go to the screen time assistant homepage</item>
+    </string-array>
+    <!-- 屏幕助手-点击应用项操作 -->
+    <string-array name="appusage_click_app_do_titles">
+        <item>Open the application</item>
+        <item>View application usage details</item>
+    </string-array>
+    <!-- 屏幕助手-应用排序方式 -->
+    <string-array name="appusage_app_sort_way_titles">
+        <item>By usage time</item>
+        <item>By usage</item>
+    </string-array>
+    <!-- 屏幕助手-最多显示数量 -->
+    <string-array name="appusage_max_load_num_titles">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+        <item>5</item>
+        <item>8</item>
+    </string-array>
+
+    <!--倒计时重复项-->
+    <string-array name="countdown_repeat_titles">
+        <item>Not repeated</item>
+        <item>every day</item>
+        <item>every weekday</item>
+        <item>Every Monday</item>
+        <item>Every Friday</item>
+        <item>Every Saturday</item>
+        <item>Every Sunday</item>
+        <item>Monthly</item>
+        <item>every year</item>
+    </string-array>
+    <string-array name="countdown_repeat_values">
+        <item>N</item>
+        <item>MD</item>
+        <item>MWD</item>
+        <item>MW1</item>
+        <item>MW5</item>
+        <item>MW6</item>
+        <item>MW7</item>
+        <item>MM</item>
+        <item>MY</item>
+    </string-array>
+    <!--倒计时提醒-->
+    <string-array name="countdown_remind_titles">
+        <item>Don\'t remind</item>
+        <item>When the event occurs</item>
+        <item>5 minutes ago</item>
+        <item>15 minutes ago</item>
+        <item>30 minutes ago</item>
+        <item>1 hour ago</item>
+        <item>2 hours ago</item>
+        <item>1 day ago</item>
+        <item>2 days ago</item>
+    </string-array>
+    <string-array name="countdown_remind_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>1440</item>
+        <item>2880</item>
+    </string-array>
+    <!--便签设置显示节假日数量-->
+    <string-array name="note_set_show_holiday_titles">
+        <item>Do not display</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <!--图片拉伸方式标题-->
+    <string-array name="img_scale_type_titles">
+        <item>Stretch and scale proportionally</item>
+        <item>Forcibly fill the space (clipping and maximizing)</item>
+        <item>Try to fill the space (keep the image size)</item>
+    </string-array>
+
+    <!-- 倒计时清单小部件排序方式 -->
+    <string-array name="countdown_sort_mode_entries">
+        <item>by event time</item>
+        <item>By editing time</item>
+        <item>By creation time</item>
+    </string-array>
+    <!-- 倒计时清单小部件排序方式 -->
+    <string-array name="countdown_sort_mode_values">
+        <item>eventTime</item>
+        <item>editTime</item>
+        <item>createTime</item>
+    </string-array>
+    <!-- 倒计时清单小部件单项风格
+    <string-array name="countdown_single_style_entries">
+        <item>By specified color (square)</item>
+        <item>According to the specified background (support rounded corners)</item>
+        <item>Transparent</item>
+    </string-array> -->
+    <!-- 倒计时清单小部件标签设置 -->
+    <string-array name="countdown_tag_type_entries">
+        <item>All statuses (eg: from start, remaining, passed)</item>
+        <item>Always show total remaining days (ignoring start time)</item>
+    </string-array>
+
+    <!-- 微博热搜小部件排序方式 -->
+    <string-array name="wb_hot_list_sort_mode_entries">
+        <item>Default</item>
+        <item>By heat</item>
+        <item>Random</item>
+    </string-array>
+    <!-- 微博热搜小部件排序方式 -->
+    <string-array name="wb_hot_list_sort_mode_values">
+        <item>default</item>
+        <item>hot</item>
+        <item>random</item>
+    </string-array>
+
+    <!-- 微博热搜显示条数 -->
+    <string-array name="wb_hot_list_show_num_titles">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+
+    <!-- 微博热搜显示条数 -->
+    <string-array name="wb_browser_way_titles">
+        <item>Open APP first</item>
+        <item>Always open the page</item>
+        <item>No action</item>
+    </string-array>
+
+    <!-- 美句双击操作 -->
+    <string-array name="sentence_double_click_titles">
+        <item>No action</item>
+        <item>Copy sentence</item>
+        <item>Refresh sentence</item>
+        <item>Open the beautiful sentence community</item>
+    </string-array>
+    <string-array name="sentence_double_click_values">
+        <item />
+        <item>COPY</item>
+        <item>REFRESH</item>
+        <item>OPEN_HOME</item>
+    </string-array>
+
+    <!-- 挂件类型 -->
+    <string-array name="pendant_type_entries">
+        <item>Large air conditioner</item>
+        <item>Small air conditioner</item>
+    </string-array>
+    <!-- 挂件类型 -->
+    <string-array name="pendant_type_values">
+        <item>big_air_conditioner</item>
+        <item>small_air_conditioner</item>
+    </string-array>
+
+    <!--空调点击操作-->
+    <string-array name="air_click_do_entries">
+        <item>Eject remote control</item>
+        <item>Turn on/off air conditioner</item>
+    </string-array>
+    <!-- 遥控器显示位置 -->
+    <string-array name="air_conditioner_place_entries">
+        <item>center</item>
+        <item>bottom</item>
+        <item>top</item>
+    </string-array>
+
+    <!--美句刷新排序-->
+    <string-array name="sentence_click_sort_entries">
+        <item>order</item>
+        <item>Random</item>
+    </string-array>
+
+    <!--文件夹布局每行数量-->
+    <string-array name="folder_line_num_entries">
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <!--时间格式-->
+    <string-array name="time_format_entries">
+        <item>default</item>
+        <item>23:59（24H）</item>
+        <item>23:59:59（24H）</item>
+        <item>11:59（12H）</item>
+        <item>11:59 上午（12H）</item>
+        <item>11:59:59（12H）</item>
+        <item>11:59:59 上午（12H）</item>
+        <item>上午 11:59（12H）</item>
+        <item>上午 11:59:59（12H）</item>
+        <item>11 59（24H-Vertical）</item>
+    </string-array>
+    <string-array name="time_format_values">
+        <item />
+        <item>HH:mm</item>
+        <item>HH:mm:ss</item>
+        <item>hh:mm</item>
+        <item>hh:mm a</item>
+        <item>hh:mm:ss</item>
+        <item>hh:mm:ss a</item>
+        <item>a HH:mm</item>
+        <item>a hh:mm:ss</item>
+        <item>@string/time_format_hour_minute_v</item>
+    </string-array>
+
+    <!--聊天案例右边-->
+    <string-array name="week_short_array">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+    <!-- 每周开始日 -->
+    <string-array name="weekly_start_day">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <!-- 点击日期时操作 -->
+    <string-array name="calendar_click_item_entries">
+        <item>No action</item>
+        <item>Check almanac details</item>
+        <item>Create a to-do item</item>
+        <item>Create countdown</item>
+    </string-array>
+
+
+    <!-- 传感器灵敏度 -->
+    <string-array name="sensor_sensitivity_titles">
+        <item>Normal</item>
+        <item>more sensitive</item>
+        <item>slower (power saving)</item>
+    </string-array>
+
+    <!-- 温度单位 -->
+    <string-array name="weather_unit_titles">
+        <item>Celsius (°C)</item>
+        <item>Fahrenheit (℉)</item>
+    </string-array>
+
+    <!-- 天气图标 -->
+    <string-array name="weather_icon_titles">
+        <item>Texture</item>
+        <item>native</item>
+    </string-array>
+
+    <!-- 动画速度 -->
+    <string-array name="animation_speed_titles">
+        <item>Gradually speed up</item>
+        <item>Deceleration after acceleration</item>
+        <item>Constant speed</item>
+        <item>Bezier curve</item>
+        <item>Bounceback</item>
+        <item>Bounce</item>
+        <item>Bounce back after pulling back</item>
+        <item>Quickly after pulling back</item>
+    </string-array>
+    <string-array name="animation_speed_values">
+        <item>A</item>
+        <item>AD</item>
+        <item>L</item>
+        <item>P</item>
+        <item>O</item>
+        <item>B</item>
+        <item>AO</item>
+        <item>AT</item>
+    </string-array>
+    <!-- 动画速度 -->
+    <string-array name="dynamic_touch_event_titles">
+        <item>Click to jump, long press to expand</item>
+        <item>Click to expand, long press to jump</item>
+        <item>Only click to expand</item>
+        <item>No Event/No Response</item>
+    </string-array>
+    <string-array name="dynamic_touch_event_values">
+        <item>CJ_LO</item>
+        <item>CO_LJ</item>
+        <item>CO</item>
+        <item>N</item>
+    </string-array>
+    <!-- 机器人类型 -->
+    <string-array name="robot_type_titles">
+        <item>ChatGPT</item>
+        <item>Baidu PLATO</item>
+        <item>Tencent BP</item>
+    </string-array>
+
+    <!-- 点击搜索框时 -->
+    <string-array name="search_click_titles">
+        <item>Popup keyboard and input method</item>
+        <item>Jump to APP search page</item>
+        <item>Jump to web search page</item>
+    </string-array>
+    <!-- 搜索引擎 -->
+    <string-array name="search_engine_titles">
+        <item>Baidu</item>
+        <item>Tiktok</item>
+        <item>Weibo</item>
+        <item>Zhihu</item>
+        <item>RED</item>
+        <item>Cool</item>
+        <item>Google</item>
+        <item>Bing</item>
+        <item>Taobao</item>
+        <item>JD</item>
+        <item>Temu</item>
+        <item>Bilibili</item>
+        <item>TOPBuzz</item>
+        <item>Sogou</item>
+        <item>360</item>
+        <item>Baidu translation</item>
+        <item>QQ Music</item>
+        <!-- <item>NetEase Cloud</item>-->
+        <item>Amap</item>
+        <item>Baidu map</item>
+    </string-array>
+    <string-array name="search_engine_values">
+        <item>baidu</item>
+        <item>tiktok</item>
+        <item>weibo</item>
+        <item>zhihu</item>
+        <item>xhs</item>
+        <item>coolapk</item>
+        <item>google</item>
+        <item>bing</item>
+        <item>taobao</item>
+        <item>jd</item>
+        <item>pdd</item>
+        <item>bili</item>
+        <item>toutiao</item>
+        <item>sogou</item>
+        <item>360</item>
+        <item>baidu_tr</item>
+        <item>qq_music</item>
+        <!--        <item>netease</item>-->
+        <item>amap</item>
+        <item>bmap</item>
+    </string-array>
+</resources>
